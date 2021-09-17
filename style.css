@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 50px 50px 50px 50px;
+}
+.img1{
+    float: left;
+}
+.topnav{
+    overflow: hidden;
+}
+.topnav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(71, 68, 68);
+    text-align: center;
+    padding: 14px;
+    float: left;
+    font-family: cursive;
+}
+.topnav .container{
+    float: left;
+    margin-left: 35%;
+}
+nav a:hover{
+    color: tomato;
+    transform: scale(1.2);
+}
+.img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
